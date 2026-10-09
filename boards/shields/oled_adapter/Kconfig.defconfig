@@ -18,6 +18,7 @@ endif
 if SHIELD_OLED_ADAPTER_PRO_MICRO_128X128 || SHIELD_OLED_ADAPTER_SEEEDUINO_XIAO_BLE_128X128
 
 config SH1106
+    bool
     default y
 
 endif
@@ -25,6 +26,7 @@ endif
 if SHIELD_OLED_ADAPTER_PRO_MICRO_64X128 || SHIELD_OLED_ADAPTER_SEEEDUINO_XIAO_BLE_64X128
 
 config SH1107
+    bool
     default y
 
 endif

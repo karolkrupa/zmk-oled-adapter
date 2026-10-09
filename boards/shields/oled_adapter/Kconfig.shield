@@ -18,3 +18,9 @@ config SHIELD_OLED_ADAPTER_SEEEDUINO_XIAO_BLE_128X64
 
 config SHIELD_OLED_ADAPTER_SEEEDUINO_XIAO_BLE_128X128
     def_bool $(shields_list_contains,oled_adapter_seeeduino_xiao_ble_128x128)
+
+config SHIELD_OLED_ADAPTER_PRO_MICRO_64X128
+    def_bool $(shields_list_contains,oled_adapter_pro_micro_64x128)
+
+config SHIELD_OLED_ADAPTER_SEEEDUINO_XIAO_BLE_64X128
+    def_bool $(shields_list_contains,oled_adapter_seeeduino_xiao_ble_64x128)
